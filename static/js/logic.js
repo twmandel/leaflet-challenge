@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(myMap);
 
 //set our api urls based on what we want to display.
-const url="https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-03-09&endtime=2023-03-16";
+const url="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 //call the api with d3 to get the data.
 //call the api with d3 to get the data.
